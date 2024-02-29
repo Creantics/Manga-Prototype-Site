@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(242, 197, 204);
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 400%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(187, 77, 93);
+  margin: 0px;
+  box-shadow: 5px 5px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content:center;
+}
+
+.button {
+  color: white;
+  background-color:rgb(187, 77, 93);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 5px;
+  margin: 10px 10px;
+  box-shadow: 3px 3px 5px black;
+}
+
+button:hover {
+  color: rgb(187, 77, 93);
+  background-color: white;
+}
+
+/* button:focus {
+  color: rgb(187, 77, 93);
+  background-color: white;
+} */
+
+.storyContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.images {
+  width: 25%;
+  margin: 0px 10px;
+}
+
+.modal {
+  background-color: rgb(255, 255, 255, 0);
+  /* border: none; */
+  width: 37%;
+  height: 90%;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.modalFlexContainer {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+}
+
+
+.modalSecondRowContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/*Code below plays animation to enlarge images while hovered and shrink upon un-hover
+
+/* .images:hover:not(:focus) {
+  animation: focusedImage .75s forwards;
+  z-index: 98;
+}
+
+@keyframes focusedImage {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.images:not(:hover):not(:focus) {
+  animation: notFocused .75s;
+  z-index: 97;
+}
+
+@keyframes notFocused {
+  from {
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+} */

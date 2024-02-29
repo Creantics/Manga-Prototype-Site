@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manga Site Project</title>
+    <link rel="stylesheet" href="index.styles.css">
+  </head>
+  <body>
+    <div class="titleContainer">
+    <h1 class="title">Short Love</h1>
+    </div>
+    <div class="buttonsContainer">
+        <button class="button buttonPartOne">Part 1</button>
+        <button class="openModal button">Spotlight Mode</button>
+        <button class="button buttonPartTwo">Part 2 [coming soon]</button>
+    </div>
+    <div class="storyContainer">
+        <img class="images array" src="images/story1.png" tabindex="0">
+        <img class="images array" src="images/story2.png" tabindex="0">
+        <img class="images array" src="images/story3.png" tabindex="0">
+        <img class="images array" src="images/story4.png" tabindex="0">
+        <img class="images array" src="images/story5.png" tabindex="0">
+        <img class="images array" src="images/story6.png" tabindex="0">
+    </div>
+    <dialog class="modal">
+      <div class="modalFlexContainer">
+      <button class="button left" onclick="left()">&lt;</button>
+      <img id="modalImage" src="">
+      <button class="button right" onclick="right()">&gt;</button>
+      <br>
+      </div>
+      <div class="modalSecondRowContainer">
+      <button class="closeModal button">Exit Spotlight</button>
+</div>
+    </dialog>
+	<script src="index.js"></script>
+  </body>
+</html>
