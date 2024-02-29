@@ -54,7 +54,7 @@ button:hover {
 .modal {
   background-color: rgb(255, 255, 255, 0);
   /* border: none; */
-  width: 37%;
+  max-width: fit-content;
   height: 90%;
 }
 
@@ -69,10 +69,6 @@ dialog::backdrop {
   height: 90%;
 }
 
-.modalImage {
-  width: 90%;
-  height: 90%;
-}
 
 .modalSecondRowContainer {
   display: flex;
