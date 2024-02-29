@@ -69,6 +69,10 @@ dialog::backdrop {
   height: 90%;
 }
 
+.modalImage {
+  width: 90%;
+  height: 90%;
+}
 
 .modalSecondRowContainer {
   display: flex;
