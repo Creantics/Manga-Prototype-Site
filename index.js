@@ -10,6 +10,11 @@ let modalImage = document.querySelector("#modalImage");
 let leftButton = document.getElementsByClassName(".left");
 let rightButton = document.getElementsByClassName(".right");
 
+const backgroundMusic = document.getElementById("bgMusic");
+backgroundMusic.load();
+backgroundMusic.play();
+backgroundMusic.volume=.05;
+
 //Array Itteration
 let i = 0;
 
@@ -40,3 +45,4 @@ closeModal.addEventListener("click", () => {
 })
 
 //Testing Section
+
